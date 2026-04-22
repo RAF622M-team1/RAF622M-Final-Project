@@ -12,5 +12,5 @@ model:
   patch_size: 3
 training:
   batch_size: 32
-  epochs: 10
-  lr: 0.00001
+  epochs: 20
+  lr: 0.0001
