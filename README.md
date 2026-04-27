@@ -26,6 +26,7 @@ Calculation and comparison of performance metrics on the test set. The notebook 
 - `majority_baseline_comparison.csv`: Majority baseline comparison using balanced accuracy as metric.
 - `per_class_NORMALIZATION_TYPE.csv`: Per-class precision, recall, F1-score and support. One file per normalization type.
 - `summary_metrics.csv`: Overall accuracy, balanced accuracy, macro-F1 score and gap for all normalization types.
+- `qualitative_distribution.png`: Predicted and true classes for all normalization types.
 
 ## Rerun the project with your own data
 To run the project with your own data, you need to change the file paths in the notebooks. Every notebook contains a some path variables at the top. If you want to rerun the project on JURECA, you only need to change `user` to your own username or teamname. If you want to run it on a different system, you might need to adjust to the existing file system structure there. 
